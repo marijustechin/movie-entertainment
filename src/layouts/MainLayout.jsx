@@ -1,5 +1,6 @@
 import { Outlet } from 'react-router';
 
 export const MainLayout = () => {
-  return <Outlet />;
+  return <div className='wrapper'><Outlet /></div>
+  
 };

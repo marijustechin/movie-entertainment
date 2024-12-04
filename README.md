@@ -1,3 +1,31 @@
+# How to start initial setup
+
+<ul>
+<li>npm i</li>
+<li>windows os: npx json-server .\data\data.json -p 7777</li>
+<li>linux os: npx json-server data/data.json -p 7777</li>
+<li>npm run dev</li>
+</ul>
+
+# API endpoints
+
+<ul>
+<li>File: src/helpers/constants.js</li>
+<li>Users: http://localhost:7777/users  ->  Constant: API_USERS_URL</li>
+<li>Movies: http://localhost:7777/movies  ->  Constant: API_MOVIES_URL</li>
+</ul>
+
+# Tailwind styles
+
+<ul>
+ <li>Heading (L) -> heading-lg</li>
+  <li>Heading (M) -> heading-md</li>
+  <li>Heading (S) -> heading-sm</li>
+  <li>Heading (XS) -> heading-xs</li>
+  <li>Body (M) -> body-md</li>
+  <li>Body (S) -> body-sm</li>
+<ul>
+
 # Entertainment web app
 
 ## The challenge
